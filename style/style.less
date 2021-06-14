@@ -198,6 +198,10 @@ section {
             text-align: center;
             font-size: 23px;
 
+            @media (max-width: 375px) {
+                font-size: 20px;
+            }
+
             h1 {
                 margin-bottom: 0;
             }
@@ -207,6 +211,11 @@ section {
             padding-left: 20%;
             padding-right: 20%;
             color: rgba(0, 0, 0, 0.7);
+
+            @media (max-width: 375px) {
+                padding-left: 2%;
+                padding-right: 2%;
+            }
         }
         .content__aboutUs {
             margin-top: 8%;
@@ -248,6 +257,10 @@ section {
             text-align: center;
             font-size: 23px;
 
+            @media (max-width: 375px) {
+                font-size: 20px;
+            }
+
             h1 {
                 margin-bottom: 0;
             }
@@ -257,6 +270,11 @@ section {
             padding-left: 20%;
             padding-right: 20%;
             color: rgba(0, 0, 0, 0.7);
+
+            @media (max-width: 375px) {
+                padding-left: 2%;
+                padding-right: 2%;
+            }
         }
 
         .content__item__1 {
@@ -379,7 +397,134 @@ section {
 
     .content__3 {
 
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 4%;
+        padding-bottom: 6%;
+
+        .content__title {
+            text-align: center;
+            font-size: 23px;
+
+            @media (max-width: 375px) {
+                font-size: 20px;
+            }
+
+            h1 {
+                margin-bottom: 0;
+            }
+        }
+        .content__subtitle {
+            text-align: center;
+            padding-left: 20%;
+            padding-right: 20%;
+            color: rgba(0, 0, 0, 0.7);
+
+            @media (max-width: 375px) {
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+        }
+
+        .content__buttons {
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 7%;
+
+            @media (max-width: 466px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .input__1 {
+                height: 45px;
+                width: auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #fff;
+                border: 1px solid rgb(0, 137, 123);
+                text-transform: uppercase;
+                font-weight: bold;
+
+                @media (max-width: 768px) {
+                    font-size: 10px;
+                    height: 30px;
+                }
+                @media (max-width: 466px) {
+                    margin-top: 10px;
+                }
+            }
+            .input__1:hover {
+                background-color: rgb(0, 137, 123);
+                color: white;
+                transition: 750ms;
+                cursor: pointer;
+            }
+
+            
+        }
+
+        .content__image {
+
+            .top__image {
+                display: flex;
+                justify-content: space-around;
+
+                .image__item {
+
+                    img {
+                        width: 100%;
+                    }
+
+                    @media (max-width: 1340px) {
+                        width: 30%;
+                    }
+                }
+            }
+
+            .bottom__image {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 4%;
+
+                .image__item {
+
+                    img {
+                        width: 100%;
+                    }
+
+                    @media (max-width: 1340px) {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+        
+        .content__input {
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 1%;
+
+            input {
+                height: 45px;
+                width: auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #fff;
+                border: 1px solid rgb(0, 137, 123);
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            input:hover {
+                background-color: rgb(0, 137, 123);
+                color: white;
+                transition: 750ms;
+                cursor: pointer;
+            }
+        }
     }
+
+    
     
 }
 
